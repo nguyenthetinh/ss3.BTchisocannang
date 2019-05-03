@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let kg=prompt("nhap can nang")
+    let m=prompt("nhap chieu cao")
+    a=parseFloat(kg);
+    b=parseFloat(m);
+    imd= a / (b*b)
+    if (imd < 18) {
+        document.write("Underweight")
+    }else if(imd<25.0){
+        document.write("Normal")
+    }else if (imd<30){
+        document.write("Overweight")
+    }else {
+        document.write("Overweight")
+    }
+
+
+</script>
+
+</body>
+</html>
